@@ -1,0 +1,38 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore npm's debug log file
+npm-debug.log
+
+# Ignore any local configuration files
+config/local.js
+
+# Ignore package-lock.json, since it should typically be regenerated for each environment
+package-lock.json
+
+# Ignore any built or compiled files
+dist/
+build/
+out/
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+
+# Ignore macOS metadata files
+.DS_Store
+
+# Ignore Jest coverage output
+coverage/
+
+# Ignore any files related to the IDE or editor you're using
+# Example: JetBrains IDEs
+.idea/
+*.iml
